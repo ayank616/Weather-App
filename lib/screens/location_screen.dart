@@ -23,7 +23,7 @@ class _LocationScreenState extends State<LocationScreen> {
   @override
   void initState() {
     super.initState();
-    updateUi(widget.locsationWeather);
+    updateUi(widget.locationWeather);
   }
 
   void updateUi(var weatherdata) {

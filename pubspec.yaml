@@ -1,0 +1,33 @@
+name: clima
+description: A new Flutter project.
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^10.1.0
+  http: ^1.1.0
+  flutter_spinkit: ^5.2.0
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: Spartan MB
+      fonts:
+        - asset: fonts/SpartanMB-Black.ttf
+        # - weight: 900
+
+  assets:
+        - images/
